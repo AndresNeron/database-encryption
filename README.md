@@ -1,7 +1,7 @@
 # File Encryption and Decryption
 
 This is a C++ code snippet that demonstrates file encryption and decryption using the OpenSSL library. It provides functions to encrypt 
-and decrypt files using the AES-256-CBC encryption algorithm. This README will guide you on how to execute the encryption code on a Linux system.
+and decrypt files using the AES-256-CBC asymmetric encryption algorithm. This README will guide you on how to execute the encryption code on a Linux system.
 
 ## Prerequisites
 
