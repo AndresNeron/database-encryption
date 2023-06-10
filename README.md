@@ -25,7 +25,7 @@ Follow these steps to execute the encryption code on your Linux system:
 
 3. Compress the files you want to encrypt into a single zip file. Replace file1.txt, file2.txt, etc., with the actual names of the files.
 
-- 'zip -r files.zip file1.txt file2.txt'
+- zip -r files.zip file1.txt file2.txt
 
 In the current example, I downloaded some databases from `https://data.gov` and I zip it to encrypt it.
 
@@ -46,17 +46,6 @@ In the current example, I downloaded some databases from `https://data.gov` and 
 - `./encryption`
 
 8. The code will execute the encryption process and display a success message upon completion. If you also want to perform decryption, uncomment the corresponding code block in the main() function and recompile the program.
-
-
-// Uncomment this part if you want to decrypt
-/*
-try {
-    decryptFile(inputFile, outputFile, key, iv);
-    std::cout << "File decryption completed." << std::endl;
-} catch (const std::exception& e) {
-    std::cerr << "Error: " << e.what() << std::endl;
-}
-*/
 
 9. Check the specified output file path to find the encrypted/decrypted file.
 
