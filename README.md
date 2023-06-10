@@ -9,6 +9,7 @@ Before running the code, ensure that you have the following prerequisites instal
 
 - OpenSSL library.
 - C++ compiler (e.g., g++).
+- `zip` library suite (e.g., `libzip-dev` or `libzip-devel`).
 - Make sure you have read and write permissions for the files you want to encrypt/decrypt.
 
 # Execution Steps
