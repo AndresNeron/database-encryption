@@ -52,11 +52,13 @@ uncomment the corresponding code block in the main() function and recompile the 
 
 9. Check the specified output file path to find the encrypted/decrypted zip file.
 
-10. Congratulations! You have successfully executed the file encryption and decryption code on your Linux system. Then you can encrypt 
+10. Finally, unzip your zip file with the command:
+
+- `unzip files.zip`
+
+11. Congratulations! You have successfully executed the file encryption and decryption code on your Linux system. Then you can encrypt 
 your `credentials.csv` using an asymmetric encryption algorithm such as RSA, to keep safe your credentials. I will explain that in other repository.
 
-11. Feel free to modify and customize the code according to your specific requirements.
+12. Feel free to modify and customize the code according to your specific requirements.
 
-12. License
-
-This code is released under the MIT License. You can find the full license text in the LICENSE file.
+13. License. This code is released under the MIT License. You can find the full license text in the LICENSE file.
